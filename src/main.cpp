@@ -2,6 +2,11 @@
 
 uint8_t relaxaPai = 0;
 
+struct _led{
+    uint_fast8_t uga;
+    uint_fast8_t buga;
+} ledBoi;
+
 void setup() {
   pinMode(LED_BUILTIN, OUTPUT);
 }

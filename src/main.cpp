@@ -1,6 +1,6 @@
 #include <Arduino.h>
 
-// Oi seu corno
+uint8_t relaxaPai = 0;
 
 void setup() {
   pinMode(LED_BUILTIN, OUTPUT);
